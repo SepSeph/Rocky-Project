@@ -8,10 +8,19 @@
         }
     }
 
-    function name () {
+    function inputname () {
         let id = $('#input-name').val();
-        let temp_html = `<li>${id}</li>`
+        if (id == '') {
+            alert("이름을 입력하세요");
+        }
 
-        $('attend-name').append(temp_html)
+        let temp_html = `<li>${id}</li>`;
 
+        $('#attend-name').append(temp_html);
     }
+
+    function inputname_remove () {
+        
+        $('#attend-name').empty();   
+    }
+
