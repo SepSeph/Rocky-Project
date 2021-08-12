@@ -30,20 +30,23 @@
         .text {
             font-weight: bold;
             color: white;
-            width: 300px;
-            height: 100px;
+            width: 400px;
+            height: 200px;
+            font-size: 28px;
 
             text-align: center;
+            
 
             background-image: url("https://cdn.canada247.info/assets/uploads/3ffd0794ea7fd5fe2754f34416ec0329_-british-columbia-greater-vancouver-langley-langley-city-hebron-presbyterian-churchhtml.jpg");
             background-size: cover;
             background-position: center;
 
             border-radius: 10px;
-            border: 3px solid green;
+            border: 3px solid black;
 
-            padding: 20px;
+            padding: 30px;
             margin: auto;
+        
         }
 
         .text-body {
@@ -60,7 +63,7 @@
 <body>
   <div>
       <div class="text">
-          <h1>Hebron College Group</h1>
+          <p>Hebron College Group</p>
       </div>
       <div class="text-body">
           <h2>Rocky Project Beta Page</h2>
@@ -72,23 +75,26 @@
         <p>ID: <input type="text" id = "input-id"/></p>
         <p>PASSWORD: <input type="text"/></p>
         <p>
-            <button><a onclick="login()" class="btn btn-light"" href=# role="button">Login</a></button>
+            <button onclick="login()" class="btn btn-dark"" href=# role="button">Login</button>
+            <button class="btn btn-dark"" href="https://tv.vanhebron.com/online/home" role="button">Online 예배</button>
         </p>
     </div>
 
-    <div class="text-body">
-        <P>
-            <button><a class="btn btn-light"" href="https://tv.vanhebron.com/online/home" role="button">Online 예배</a></button>
-        </P>
-    </div>
+    <li></li>
+    <li></li>
 
     <div class="text-body">
+        <h3>출석현황</h3>
+        <p>
+            <input id="input-name" class="text-body"  type="text" placeholder="이름을 입력해주세요" />
+            <button onclick="name()" class="btn btn-dark">확인</button>
+            <ul id="attend-name">
+                <li>김요셉</li>
+            </ul>
+        </p>
 
-        <h3>교회표어</h3>
-        <P>성령의 능력으로 열방을 품고 주님의 제자 삼는 교회</p>
-        <h3>표어</h3>
-        <p>회복과 치유가 있는 예배 / 가정교회를 통한 제자양육</p>
-        <p>교육을 통한 지도자 양성 / 선교를 통한 세계 복음화</p>
     </div>
+
+   
 </body>
 </html>
