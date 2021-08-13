@@ -4,7 +4,7 @@
         if (id == '') {
             alert("Wrong information")
         } else {
-            alert(id + "Welcome to Hebron Presbyterian Church College Group Website")
+            alert(id + "님 Welcome to Hebron Church College Group Website")
         }
     }
 
