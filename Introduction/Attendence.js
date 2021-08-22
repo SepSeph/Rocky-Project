@@ -61,6 +61,13 @@
 
     console.log(info_list_JSON[0].birthdate[0].year);
 
+    for (let i = 0; i < info.length; i++) {
+        let mem_name = info[i]["name"]
+        let mem_date = info[i]["birthdate"]
+        let mem_year = mem_date["year"]
+        console.log(mem_name,mem_date)
+    }
+
 
 
 
