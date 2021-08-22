@@ -8,41 +8,62 @@
       }
 
 
-    let Info = `[
+    let info = [
         {
             "name" : "오현석", 
             "birthdate" : [{
                 "year" : 1998, 
-                "month" : 05, 
-                "day" : 09
-            }]
+                "month" : "MAY", 
+                "day" : 9
+            }],
+            "inCanada" : true
         },
         {
             "name" : "김요셉", 
             "birthdate" : [{
                 "year" : 1992, 
-                "month" : 08, 
+                "month" : "AUG", 
                 "day" : 14
-            }]
+            }],
+            "inCanada" : true
         },
         {
             "name" : "정수현", 
             "birthdate" : [{
                 "year" : 1999, 
-                "month" : 10, 
+                "month" : "OCT", 
                 "day" : 11
-            }]
+            }],
+            "inCanada" : true
         },
         {
             "name" : "박호정", 
             "birthdate" : [{
                 "year" : 2001, 
-                "month" : 01, 
-                "day" : 05
-            }]
+                "month" : "JAN", 
+                "day" : 5
+            }],
+            "inCanada" : true
         }
-    ]`;
+    ];
 
-    let Info_list = JSON.parse(Info)
+    console.log(info)
 
-    console.log(Info_list);
+    const info_list = JSON.stringify(info)
+
+    console.log(info_list);
+
+    localStorage.setItem('info', info_list);
+
+    const info_list_JSON = JSON.parse(info_list);
+
+    console.log(info_list_JSON);
+
+    console.log(info_list_JSON[0].birthdate[0].year);
+
+
+
+
+
+
+    
