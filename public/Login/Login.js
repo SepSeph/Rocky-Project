@@ -1,4 +1,10 @@
+ //#################################
 
+// ㅇㅇ
+// 
+    
+    
+    // 랙 .....
     function login () {
         let id = $('#input-id').val()
         if (id == '') {
@@ -8,6 +14,8 @@
         }
     }
 
+     // ㅇㅁㄹㄴㅇㄹㅁㄴㅇ..ㅁㄴㅇㄹㅁㄴㅇㄹ
+     // ㅔㅁㄱ므 ...
     function input_name () {
         let id = $('#input-name').val();
         if (id == '') {
@@ -19,6 +27,7 @@
         $('#attend-name').append(temp_html);
     }
 
+     //ㅓ ㅁㄴㅇㄹㅁㄴㅇ
     function input_name_remove () {
         
         $('#attend-name').empty();   

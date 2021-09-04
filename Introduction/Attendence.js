@@ -11,38 +11,38 @@
     let info = [
         {
             "name" : "오현석", 
-            "birthdate" : [{
+            "birthdate" : {
                 "year" : 1998, 
                 "month" : "MAY", 
                 "day" : 9
-            }],
+            },
             "inCanada" : true
         },
         {
             "name" : "김요셉", 
-            "birthdate" : [{
+            "birthdate" : {
                 "year" : 1992, 
                 "month" : "AUG", 
                 "day" : 14
-            }],
+            },
             "inCanada" : true
         },
         {
             "name" : "정수현", 
-            "birthdate" : [{
+            "birthdate" : {
                 "year" : 1999, 
                 "month" : "OCT", 
                 "day" : 11
-            }],
+            },
             "inCanada" : true
         },
         {
             "name" : "박호정", 
-            "birthdate" : [{
+            "birthdate" : {
                 "year" : 2001, 
                 "month" : "JAN", 
                 "day" : 5
-            }],
+            },
             "inCanada" : true
         }
     ];
@@ -59,12 +59,11 @@
 
     console.log(info_list_JSON);
 
-    console.log(info_list_JSON[0].birthdate[0].year);
-
     for (let i = 0; i < info.length; i++) {
         let mem_name = info[i]["name"]
         let mem_date = info[i]["birthdate"]
-        let mem_year = mem_date["year"]
+        // let mem_year = mem_date["year"]
+        // if (mem_year <= 1996)
         console.log(mem_name,mem_date)
     }
 
