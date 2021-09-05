@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+
+      <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+      <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+  
+      <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyAReaBrvf6t0hDsao_ruuYZC0KdLrKgOxc",
+        authDomain: "rocky-project-55408.firebaseapp.com",
+        projectId: "rocky-project-55408",
+        storageBucket: "rocky-project-55408.appspot.com",
+        messagingSenderId: "592691964111",
+        appId: "1:592691964111:web:4118fdfc080eccfa632fba",
+        measurementId: "G-2DRJQMRYWE"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+      </script>
+    
+    <title>Rocky Project</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Stylish', sans-serif;
+        }
+        .text {
+            font-weight: bold;
+            color: white;
+            width: 400px;
+            height: 200px;
+            font-size: 28px;
+
+            text-align: center;
+            
+
+            background-image: url("https://cdn.canada247.info/assets/uploads/3ffd0794ea7fd5fe2754f34416ec0329_-british-columbia-greater-vancouver-langley-langley-city-hebron-presbyterian-churchhtml.jpg");
+            background-size: cover;
+            background-position: center;
+
+            border-radius: 10px;
+            border: 3px solid black;
+
+            padding: 30px;
+            margin: auto;
+        
+        }
+
+        .text-body {
+            text-align: center;
+        }
+
+    </style>
+
+<head>
+    <script src="Login.js"></script>
+
+</head>
+
+</head>
+<body>
+  <div>
+      <div class="text">
+          <p>Hebron College Group</p>
+      </div>
+      <div class="text-body">
+          <h2>Rocky Project Beta Page</h2>
+      </div>
+  </div>
+
+    <div class="text-body">
+        <p>ID: <input type="text" id = "input-id"/></p>
+        <p>PASSWORD: <input type="text"/></p>
+        <p>
+            <button onclick="login()" class="btn btn-dark"" href=# role="button">Login</button>
+            <button class="btn btn-dark"" href="https://tv.vanhebron.com/online/home" role="button">Online Service</button>
+        </p>
+    </div>
+
+    <li></li>
+    <li></li>
+
+    <div class="text-body">
+        <h3>Attendance Status</h3>
+        <p>
+            <input id="input-name" class="text-body" type="text" placeholder="Please enter your name" />
+            <button onclick="input_name()" class="btn btn-dark">Enter</button>
+            <button onclick="input_name_remove()" class="btn btn-dark">Refresh</button>
+            <ul id="attend-name">
+               
+            </ul>
+        </p>
+
+    </div>
+
+   
+</body>
+</html>

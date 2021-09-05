@@ -1,0 +1,38 @@
+[
+    {
+        "name" : "오현석", 
+        "birthdate" : [{
+            "year" : 1998, 
+            "month" : "MAY", 
+            "day" : 9
+        }],
+        "inCanada" : true
+    },
+    {
+        "name" : "김요셉", 
+        "birthdate" : [{
+            "year" : 1992, 
+            "month" : "AUG", 
+            "day" : 14
+        }],
+        "inCanada" : true
+    },
+    {
+        "name" : "정수현", 
+        "birthdate" : [{
+            "year" : 1999, 
+            "month" : "OCT", 
+            "day" : 11
+        }],
+        "inCanada" : true
+    },
+    {
+        "name" : "박호정", 
+        "birthdate" : [{
+            "year" : 2001, 
+            "month" : "JAN", 
+            "day" : 5
+        }],
+        "inCanada" : true
+    }
+]
